@@ -41,12 +41,7 @@ while votacao == 0:
             print("O Número de Votos em Voto em Branco é igual a : ", B)
             B+=B
          
-
-
-    
 print("Fim de Votação \n")
-    
-
 print("Resultado da Votação \n")
 print("Votos em Manoel = ",M)
 print("Votos em Elaine = ",E)
