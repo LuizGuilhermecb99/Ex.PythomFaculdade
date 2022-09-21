@@ -1,8 +1,11 @@
+SALHR = hr = Sal = INSS = IR = Des = Salliq = FGTS = 0
+
+
 print("Folha de Pagamento \n")
 salhr =  float(print("Digite o valor do seu salário/hora no mês  :"))
 hr = float(print("Digite a quantidade de horas trabalhadas no mês"))
 
-#não sei o erro que está acontecendo aqui prof, na linha 11.
+#não sei o erro que está acontecendo aqui prof.. 
 
 Sal = (salhr * hr)
 INSS =(Sal*10)/100
