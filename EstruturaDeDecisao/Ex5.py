@@ -7,9 +7,10 @@ R = (num1 + num2)/2
 
 if ((R >= 7.0 ) and (R  <10.0)):
     print("Aluno Aprovado !!")
-    if (R == 10.0):
-        print("Aluno Aprovado com Distinção !!")
+elif(R == 10.0):
+    print("Aluno Aprovado com Distinção !!")
 else:
     print("Aluno Reprovado !!")
+
 
 
