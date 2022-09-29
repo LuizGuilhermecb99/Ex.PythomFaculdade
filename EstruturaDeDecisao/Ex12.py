@@ -3,7 +3,7 @@ SALHR = hr = Sal = INSS = IR = Des = Salliq = FGTS = 0
 
 print("Folha de Pagamento \n")
 salhr =  float(input("Digite o valor do seu salário por hora no mês  :"))
-hr = float(input("Digite a quantidade de horas trabalhadas no mês"))
+hr = float(input("Digite a quantidade de horas trabalhadas no mês :"))
 
 
 
@@ -28,7 +28,7 @@ elif((Sal>1500)and(Sal<=2500)):
     print(Salliq-(Sal*10)/100)
 else:
     print("Desconto de 20%")    
-    print("Salário Bruto:      : ",Sal)
+    print("Salário Bruto:                  : ",Sal)
     print("(-) IR (5%)                     : ",IR)
     print("(-) INSS ( 10%)                 : ",INSS)	
     print("FGTS (11%)                      : ",FGTS)
